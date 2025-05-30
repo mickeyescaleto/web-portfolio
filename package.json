@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "private": true,
+  "scripts": {
+    "format": "prettier --write '**/*.{js,ts,cjs,mjs,vue}'"
+  },
   "devDependencies": {
+    "prettier": "^3.5.3",
     "typescript": "^5.8.3"
   }
 }
