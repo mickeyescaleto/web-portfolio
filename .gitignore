@@ -1,5 +1,9 @@
 # dependencies
 node_modules
 
+# build outputs
+.nuxt
+.output
+
 # environment
 .env
